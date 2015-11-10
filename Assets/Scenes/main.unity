@@ -439,6 +439,8 @@ GameObject:
   - 114: {fileID: 1439567754}
   - 114: {fileID: 1439567753}
   - 114: {fileID: 1439567752}
+  - 114: {fileID: 1439567757}
+  - 114: {fileID: 1439567756}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -502,12 +504,13 @@ MonoBehaviour:
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
-    x: -343
-    y: -340
-    width: 1114
-    height: 859
-  selectedBlock: {fileID: 1439567753}
-  selectedCommands: []
+    x: -350
+    y: -350
+    width: 1121
+    height: 936
+  selectedBlock: {fileID: 1439567757}
+  selectedCommands:
+  - {fileID: 1439567756}
   variables: []
   description: 
   stepPause: 0
@@ -528,6 +531,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &1439567756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439567751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  errorMessage: 
+  indentLevel: 0
+  commenterName: test
+  commentText: testdayo
+--- !u!114 &1439567757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439567751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 117
+    y: 129
+    width: 120
+    height: 40
+  itemId: 1
+  blockName: New Block1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1439567756}
 --- !u!1 &1863168373
 GameObject:
   m_ObjectHideFlags: 0
