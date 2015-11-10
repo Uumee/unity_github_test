@@ -98,6 +98,7 @@ GameObject:
   - 33: {fileID: 364583204}
   - 65: {fileID: 364583203}
   - 23: {fileID: 364583202}
+  - 45: {fileID: 364583206}
   m_Layer: 0
   m_Name: Cube02
   m_TagString: Untagged
@@ -159,7 +160,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
+--- !u!45 &364583206
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 364583201}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1 &1095645900
 GameObject:
   m_ObjectHideFlags: 0
