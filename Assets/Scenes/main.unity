@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 173, y: -68}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -508,9 +508,8 @@ MonoBehaviour:
     y: -350
     width: 1121
     height: 936
-  selectedBlock: {fileID: 1439567757}
-  selectedCommands:
-  - {fileID: 1439567756}
+  selectedBlock: {fileID: 0}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -533,7 +532,7 @@ Transform:
   m_RootOrder: 0
 --- !u!114 &1439567756
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1439567751}
@@ -549,7 +548,7 @@ MonoBehaviour:
   commentText: testdayo
 --- !u!114 &1439567757
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1439567751}
